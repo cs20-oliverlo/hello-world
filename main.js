@@ -1,9 +1,13 @@
 // JavaScript Code
-let username = "Oliver";
-let timeOfDay = "Morning"
 
-// let msg = "Hello " + username + "! Have a great " + timeOfDay + "!";
-// Template String
-let msg = `Hello ${username}). Have a great ${timeOfDay}`
+// IPO Algorithm (Input-Process-Output)
 
+// Input
+let username = prompt("What is your name?");
+let timeOfDay = prompt("What time is it?")
+
+// Process
+let msg = `Hello ${username}. Have a great ${timeOfDay}`
+
+// Output
 alert(msg)
