@@ -1,4 +1,9 @@
 // JavaScript Code
-alert("Hello World");
-alert("This is Javascript")
-alert("I hope this is fun")
+let username = "Oliver";
+let timeOfDay = "Morning"
+
+// let msg = "Hello " + username + "! Have a great " + timeOfDay + "!";
+// Template String
+let msg = `Hello ${username}). Have a great ${timeOfDay}`
+
+alert(msg)
